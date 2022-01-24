@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grouping teags</title>
+    <style>
+        body{
+            font-family: sans-serif;
+            background-color: rgb(108, 156, 201);
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        main{
+            background-color: white;
+            padding: 1px 10px 1px 10px;
+            margin: 10px;
+            border-radius: 10px 40px;
+        
+        }
+        footer{
+            background-color: white;
+            color: red;
+            text-align: center;
+            padding: 1px 10px 1px 10px;
+            margin: 0px;
+            border-radius: 7px;
+
+        }
+        article > aside{
+            text-align: center;
+            background-color: salmon;
+            color: white;
+        }
+        header > nav{
+            background-color: dimgray;
+            text-align: center;
+            text-decoration: none;
+           
+        }
+        nav{
+            box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.486);
+        }
+        nav > a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 20px;
+        }
+        
+        nav > a:hover{
+            color: tomato;
+            text-decoration: underline;
+        }
+        header > h1{
+            text-align: center;
+        }
+       
+        footer > p{
+            margin: 0px;
+        }
+        h1{
+            box-shadow: 2px 2px 14px rgba(0, 0, 0, 0.705);
+        }
+        aside#covid19{
+            background-color: rgb(255, 255, 255);
+            color: red;
+            margin: 1px;
+            padding: 1px;
+        }
+
+        aside#covid19:hover{
+                color: rgb(0, 255, 115);
+                box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.212);
+                font-size: 16px;
+        }
+
+       
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Helo word</h1>
+        <nav>
+            <a href="#">link 2.33</a>
+            <a href="#">link coe</a>
+            <a href="#">link olaaa</a>
+            <a href="#">link pilolo</a>
+            <a href="#">link o</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>esportes e tecnologia</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>O que o pilolo lhe fez</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure consectetur ullam distinctio dolor illum fugit. Laborum totam quidem inventore sunt rem dolorum delectus cupiditate, error illum illo mollitia ipsam soluta.</p>
+                <aside>
+                    <p>artigo escrito por joas</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+
+        </section>
+        <section>
+            <article>
+                <h2 >Porque que o covid 19 e bom pra os alunos </h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem similique aut vel excepturi asperiores laborum accusamus. Commodi, cupiditate labore cumque inventore similique maxime molestias in? Ducimus odit soluta commodi delectus!</p>
+                <aside id="covid19">
+                    criado por pilolo
+                </aside>
+            </article>
+        </section>
+
+    </main>
+    <footer>
+        <p>feito por @ivando</p>
+    </footer>
+</body>
+</html>

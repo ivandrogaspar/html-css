@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>link </title>
+    <style>
+        /*
+            # = id
+            . = class
+            : = pseudo-class
+            :: = pseudo-element
+            > = clildren 
+        */
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a{
+            color: red;
+            text-decoration: none;
+            font-weight:  bold;
+        }
+        a:visited{
+            color: darkred;
+
+        }
+        a:hover{
+            text-decoration: underline;
+            color: black;
+        }
+
+        a:active{
+            color: green;
+
+        }
+        a::before{
+            color: darkgray;
+        }
+
+        a:after{
+            content: '❤';
+            text-decoration: none;
+            color: darkgray;
+            font-weight: normal;
+        }
+        a:before{
+            content: '❥';
+        }
+        .especial::before{
+            content: 'pilolo';
+        }
+        .especial::after{
+            content: 'xexexe';
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="https://www.youtube.com/" target="_blank" class="especial">youtube</a></li>
+        <li><a href="https://twitter.com/drex_no" target="_blank">twitter</a></li>
+        <li><a href="https://www.roblox.com/home" target="_blank">roblox</a></li>
+    </ul>
+    
+</body>
+</html>
